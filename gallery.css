@@ -1,0 +1,77 @@
+
+
+.parents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*display-justify-alignitem make all the box center*/
+    height: 100px;
+    width: 100%;
+    flex-wrap: wrap;/*make it responsive*/
+    position: relative;
+    /*position:relative on parent box 
+    and position: absolute on child top-
+    (box that we want it to be on top of everything--use absolute)*/
+
+
+}
+
+
+
+
+.child1{
+    height: 396px;
+    /*border also take space 2px from bottom and 2 px from top-
+    -so to have the same hight as other pics minus 4=396*/
+    width: 45%;
+    border:2px solid red;
+    margin: 10px;
+
+}
+
+
+
+.child1 img{
+    height: 300px;
+    width: 100%;
+
+}
+
+
+.child2{
+    background-image: url("Photo/sky2.jpg");
+    height: 400px;
+    width: 45%;
+    background-size: cover;
+    margin: 10px;
+
+}
+
+.child3{
+    background-image: url("Photo/summer.jpeg");
+    height: 400px;
+    width: 45%;
+    background-size: cover;
+    background-position: center center;
+    margin: 10px;
+
+}
+
+.child4{
+    background-image: url("Photo/winter.jpg");
+    height: 400px;
+    width: 45%;
+    background-size: cover;
+    margin: 10px;
+
+}
+
+.child-top{
+    background-image: url("Photo/heart\ fruit.jpeg");
+    height: 300px;
+    width: 300px; 
+    background-size: cover;
+    position: absolute;
+    top:40% ;
+    left: 40%;
+}
